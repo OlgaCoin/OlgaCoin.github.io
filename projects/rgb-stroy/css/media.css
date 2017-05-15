@@ -1,0 +1,286 @@
+/*==========  Desktop First Method  ==========*/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+#phone_right_box, #email_right_box, #toTop {display: none!important;}	
+
+.header_fixed .header_logo a p {font-size: 14px;padding-top: 5px;}
+.header_fixed .header_logo a p>span {display: none;}
+.header_fixed .header_logo a {padding-top: 11px;}
+.logo_large {height: 27px;width: 38px;}
+
+.slide {height:542px}
+.slide_content {margin-top:200px;}
+.slick-dots {bottom: 60px}
+
+.header_menu ul li a {padding: 0 8px;}
+
+.area_box .area_link::after {left: 15px;}
+.area_box .area_link:hover::after {bottom: 20px;}
+.area_box .area_link ul {padding: 0;}
+.area_box .area_link ul li {padding-left: 20px;}
+.area_box .area_link ul li::before {left: 0;}
+
+.form_call label {width: 30%;}
+
+.about h3 {font-size: 12px;}
+.about_info img {display: block;}
+.about_info p {font-size: 12px;margin-bottom: 10px;}
+.about p.block_prev {font-size: 14px;}
+.about_info {padding-right: 30px;}
+
+.products_block .product_link {padding: 20px 25px;}
+.products_block .product_link h3 {font-size: 12px;margin-bottom: 5px;}
+.products_block .product_link::after {left: 25px;}
+.products_block .product_link:hover::after {bottom: 25px;}
+
+.how_decor {left: 163px;}
+.how_decor .circle {margin-right: 17px;}
+
+.project_block .proj_link .proj_cont {padding: 0 15px;}
+
+/* Pages */
+
+.pages_cont img.left_img {width: 100%;}
+.pages_cont img.right_img {width: 100%; margin-left: 0;}
+.pages_cont .right_block {margin-left: 0;}
+
+ul.tabs {border-bottom: none;}
+.tabs li {background-color: #f3f3f3;margin-bottom: 10px;}
+.tabs li h3 {padding: 10px 12px;}
+
+.gal_item {width: 33%}
+.tile {width: 33%}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.slider_top .slide {height:407px}
+.slider_top .slide_content {margin-top: 150px;}
+.slider_top .slick-dots {display: none!important;}
+
+.header {box-shadow: none;}
+.header_top, .header_top.pages {height:65px;box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);background-color: #f9f9f9;}
+.header--active-menu{max-height:100%; overflow-y:scroll}
+.header_content .l_flex_item{float:right}
+.header_content .l_flex {padding-top: 8px;}
+.header_buttons {display:inline-block}
+.header_fixed,.top_item {display:none}
+
+.area_box {width: 50%;}
+.area_box .area_link::after {left: 45px;}
+.area_box .area_link:hover::after {bottom: 20px;}
+.area_box .area_link ul {padding-left: 30px;}
+.area_box:nth-child(1),.area_box:nth-child(4) {background-color: #f3f3f3;}
+.area_box:nth-child(2),.area_box:nth-child(3) {background-color: #f9f9f9;}  
+
+.reviews_block {margin-bottom: 60px;}
+.button_block {margin-top: 20px;}
+
+section.call .block_prev {margin-bottom: 15px;}
+.form_call {margin-bottom: 45px;}
+.form_call label {width: 34%;}
+
+section.about {background-image: none;padding-bottom: 45px;}
+.about_info img,
+.about_info p.dir_info {display: inline-block;}
+.about_info p {font-size: 13px;margin-bottom: 15px;}
+.about p.block_prev {text-align: center;}
+.about .last_news_h {margin-bottom: 15px;}
+
+.products_block .product_link {padding: 30px 40px 20px;}
+.products_block .product_link h3 {font-size: 14px;margin-bottom: 10px;}
+.products_block .product_link::after {left: 40px;}
+.products_block .product_link:hover::after {bottom: 30px;}
+
+.how .how_item {margin-bottom: 35px;}
+.how_decor {position: static;width: 7px;margin: 35px auto;}
+.how_decor .circle {margin-bottom: 15px;display: block;}
+
+.project_block {width: 50%;}
+
+footer .f_col {margin-bottom: 40px;}
+footer h4 {margin-right: 130px;}
+
+/* Pages */
+
+.pages_header {padding-top: 60px;}
+
+.gal_item {width: 49.6%}
+.gal_item .overlay i {margin-top: 30%;}
+
+.projects_item {width: 33%;}
+.slider_proj {margin-bottom: 30px;}
+
+.pages_cont img {float: none;}
+.pages_cont .contact_item img {float: left;}
+.pages_cont img.right {margin-left: 0;}
+
+.feedback_info {margin-bottom: 25px;}
+
+.newsblock img {float: none;max-width: 100%}
+
+.contact_items {margin-bottom: 45px;}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.slide{height:304px}
+.slide_content {margin-top:120px; width: 100%;}
+.slide_content h1 {margin-bottom: 30px;}
+.slide_content h1 .bold {font-size: 25px;}
+
+.benefits .space {height: 30px;}
+
+section.technology {padding-bottom: 40px;}
+table.tech_ben,
+table.tech_ben thead, 
+table.tech_ben tbody, 
+table.tech_ben th, 
+table.tech_ben td, 
+table.tech_ben tr {display: block;text-align: center;border: none;}
+table.tech_ben th:nth-child(1),
+table.tech_ben .left_column {text-align: center;}
+table.tech_ben tr th {width: 100%;}
+table.tech_ben tr td {width: 100%;}
+table.tech_ben th h3 {margin: 0;}
+table.tech_ben tr th:nth-child(2) {background-color: rgba(26, 56, 83, 0.027);}
+
+.area_box {width: 100%;}
+.area_box:nth-child(2n+1) {background-color: #f3f3f3;}
+.area_box:nth-child(2n) {background-color: #f9f9f9;}
+
+.reviews_block {padding: 0 30px;} 
+
+.form_call label {display: block;}
+section.call h3 {text-align: center;}
+section.call .block_prev {margin-bottom: 30px;text-align: center;}
+.form_call label,
+.form_call .btn_order {width: 290px; margin: 0 auto 15px;padding: 14px 27px;display: block;}
+
+footer .footer_bottom p {line-height: 1.4;}
+
+/* Pages */
+
+.pages_box .pages_link,
+.pages_box .pages_link h3 {text-align: center;}
+
+.tile {width: 32.8%}
+
+.projects_item {width: 49.6%;}
+
+.news_item {margin: 20px 10%;}
+
+.awards_item .diplom {margin-bottom: 20px;}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+h2 {font-size: 20px;}
+
+.slide{height:270px}
+.slide_content {margin-top:100px;}
+.slide_content h1 {font-size: 15px;}
+.slide_content h1 .bold {font-size: 20px;}
+
+.benefits .icon_box i {float: none;margin-top: 7px;}
+.benefits .icon_box h3, .benefits .icon_box p {margin-left: 0;}
+.benefits .icon_box {text-align: center;}
+.benefits .space {height: 20px;}
+
+.pop-form {width: 260px;}
+.pop-form h3 {font-size: 17px;}
+.pop-form p {font-size: 12px;}
+.pop-form input[type="text"] {font-size: 12px;}
+
+.about_info img {display: block;}
+
+.products_block .product_link {padding: 20px 25px;}
+.products_block .product_link h3 {font-size: 12px;margin-bottom: 5px;}
+.products_block .product_link::after {left: 25px;}
+.products_block .product_link:hover::after {bottom: 20px;}
+
+.project_block {width: 100%;}
+
+/* Pages */
+
+.breadcrumbs ul {margin-top: 16px;}
+.gal_item {width: 100%}
+.tile {width: 49.4%}
+.projects_item {width: 100%;}
+
+.news_item {margin: 20px 0;}
+
+.pages_cont table,
+.pages_cont thead, 
+.pages_cont tbody, 
+.pages_cont th, 
+.pages_cont td, 
+.pages_cont tr {display: block;text-align: left;}
+.pages_cont table tr td:nth-child(1),
+.pages_cont table tr td:nth-child(2)  {width: 100%; padding: 7px 10px;}
+.pages_cont table.tech tr td ul span {display: none;}
+
+.awards_item a.diplom {float: none; width: 100%;padding: 10%;}
+.awards_cont {margin-left: 0;}
+
+.pages_cont .contact_item img {float: none;margin-bottom: 20px;}
+.person_data {margin-left: 0;}
+.person_data p {margin-left: 40px;}
+.post_form,
+.contact_item {padding: 25px;}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.pop-form {width: 245px;}
+
+.reviews_block {padding: 0;}  
+
+.news_item p {font-size: 12px;}
+
+/* Pages */
+
+.pages_header h1 {font-size: 30px;}
+
+.products_item img, .services_item img {width: 100%;}
+
+ul.proj_info {font-size: 12px;}
+
+.post_form button {width: 100%;}
+}
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
