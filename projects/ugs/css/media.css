@@ -12,6 +12,7 @@ h1 span {display: none;}
 .prod_details {padding-top: 12px;}
 .prod_details span.price {margin-bottom: 10px;}
 .prod_details p {margin-bottom: 20px;}
+.slick-dots {bottom: 85%;}
 .how_decor {left: 86px;}
 .head_block {width: 25%;}
 .clients_slider button.slick-prev {right: 75%;}
@@ -50,6 +51,7 @@ section.about img {margin-top: 20px;}
 .prod_details p {margin-bottom: 25px;}
 .service_block .text h3 {margin-top: 40px;}
 .services_inner_slider {padding-top: 0;}
+.slick-dots {bottom: 90%;}
 .docs_item a {padding: 7px 4px 9px 6px;}
 .how_item {width: 33%;}
 .head_block {width: 33%;}
@@ -84,7 +86,7 @@ h1 {text-align: center;}
 .logo_box .logo {height: 50px;}	
 .logo_box p {display: none;}
 .top_header {margin-bottom: 15px;}
-.top_header .red_btn {text-indent: 100%;white-space: nowrap;overflow: hidden;width: 48px;height: 48px;box-shadow: none;}
+.top_header .red_btn {font-size: 0;width: 48px;height: 48px;box-shadow: none;color: transparent;}
 .top_header .red_btn::before {font-family: "icomoon";content: "\ea2b";font-size: 23px;color: #fff;display: block;margin-top: 3px;}
 h1 {font-size: 46px;}
 h1 span {display: none;}
@@ -125,7 +127,7 @@ section {padding: 40px 0;}
 .product_card:hover .prod_details h3 {margin: 0 0 20px;}
 .prod_details p {margin-bottom: 25px;margin-top: 0;}
 .service_block {padding-bottom: 0;}
-.pagingInfo {padding: 0 14px;}
+.slick-dots {bottom: 85%;}
 .docs_item a {padding: 7px 4px 9px 7px;}
 .docs_item a::before {font-size: 22px;width: 40px;height: 40px;margin-left: -20px;line-height: 38px;margin-top: -25px;}
 .clients_block {display: none;}
@@ -159,7 +161,7 @@ h1 {font-size: 33px;}
 .logo_box .logo {height: 48px;}
 .page {padding-left: 55px;}
 h1 {font-size: 34px;line-height: 1.2;}
-h2 {font-size: 33px;}
+h3 {font-size: 29px;}
 .header_wrapper {min-height: 470px;}
 .benbox {padding: 15px 15px 15px 25px;}
 .right_desc {font-size: 12px;}

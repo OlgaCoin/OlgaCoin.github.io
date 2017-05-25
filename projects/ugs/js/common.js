@@ -68,14 +68,7 @@ $(document).ready(function() {
 		pauseOnHover: true,
 		pauseOnFocus: true,
 		speed: 800,
-		asNavFor: '.services_slider',
-		responsive: [
-		    {
-		    breakpoint: 992,
-		    settings: {
-		    dots: false
-		    }
-		}]
+		asNavFor: '.services_slider'
  	});
 
 	$('.clients_slider').slick({
@@ -354,14 +347,4 @@ $(window).on("load",function(){
 
 	$(".preloader-container").fadeOut();
 	$(".preloader").delay(350).fadeOut("slow");
-
-
-    var $status = $('.pagingInfo');
-	var $slickElement = $('.services_inner_slider');
-
-	$slickElement.on('init reInit afterChange', function(event, slick, currentSlide, nextSlide){
-	    //currentSlide is undefined on init -- set it to 0 in this case (currentSlide is 0 based)
-	    var i = (currentSlide ? currentSlide : 0) + 1;
-	    $status.text(i + ' ' + '/' + ' ' + slick.slideCount);
-	});
 });
