@@ -1,0 +1,195 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+.container {width: 930px;}
+.header_wrapper {min-height: 542px;}
+.top_header {margin-bottom: 60px;}
+h1 {line-height: 1.1;}
+h1 span {display: none;}
+.top_slide p {padding-right: 145px;}
+.prod_details {padding-top: 12px;}
+.prod_details span.price {margin-bottom: 10px;}
+.prod_details p {margin-bottom: 20px;}
+.how_decor {left: 86px;}
+.head_block {width: 25%;}
+.clients_slider button.slick-prev {right: 75%;}
+.clients_slider button.slick-next {left: 25%;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+.container {width: 710px;}
+section {padding: 40px 0;}
+section.about, section.products {padding-bottom: 20px;}
+.service_block {padding-bottom: 30px;}
+.docs_block {padding-bottom: 5px;}
+.clients_block {margin: 30px 0 0;}
+.call_block {margin: 40px 0 10px}
+
+h1 {margin-bottom: 10px;text-shadow: 1px 0 2px rgba(255,255,255,1)}
+h1 span {display: block;margin-top: 4px;}
+.header_wrapper {height: 407px;}
+.phone_box p {display: none;}
+.top_header {margin-bottom: 40px;}
+.top_slide p {display: none;}
+section.about img {margin-top: 20px;}
+.benbox {width: 50%;}
+.benbox:nth-child(4),
+.benbox:nth-child(5) {background-color: #F8F9FA;}
+.benbox:nth-child(2),
+.benbox:nth-child(3),
+.benbox:nth-child(6),
+.benbox:nth-child(7) {background-color: #fff;}
+.benbox:nth-child(4) {border-right: 3px solid #fff;}
+.benbox:nth-child(5) {border-left: 3px solid #fff;}
+.prod_details {padding-top: 15px;}
+.prod_details span.price {margin-bottom: 15px;}
+.prod_details p {margin-bottom: 25px;}
+.service_block .text h3 {margin-top: 40px;}
+.services_inner_slider {padding-top: 0;}
+.docs_item a {padding: 7px 4px 9px 6px;}
+.how_item {width: 33%;}
+.head_block {width: 33%;}
+.clients_slider button.slick-prev {right: 67%;}
+.clients_slider button.slick-next {left: 33%;}
+.callus {margin-top: 0;margin-bottom: 30px;}
+footer {text-align: center;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+.container {width: auto;}
+.header_wrapper {min-height: 550px;background-image: url(../img/header_bg1.jpg);}
+h1 {text-align: center;}
+.prod_details {padding-top: 11px;}
+.prod_details span.price {margin-bottom: 10px;}
+.prod_details p {margin-bottom: 10px;}
+.service_block .text h3 {margin-top: 45px;}
+.service_block .text .blue_btn {display: none;}
+.docs_item a {padding: 12px 8px 9px 12px;}
+.clear {clear:both;}
+.head_block {width: 50%;}
+.head_block h4 {font-size: 24px;}
+.cl_slide p {font-size: 19px;}
+.clients_slider button.slick-prev {right: 50%;}
+.clients_slider button.slick-next {left: 50% ;}
+.call_block {background-image: none;}
+}
+
+@media only screen and (max-width : 600px) {
+.logo_box .logo {height: 50px;}	
+.logo_box p {display: none;}
+.top_header {margin-bottom: 15px;}
+.top_header .red_btn {text-indent: 100%;white-space: nowrap;overflow: hidden;width: 48px;height: 48px;box-shadow: none;}
+.top_header .red_btn::before {font-family: "icomoon";content: "\ea2b";font-size: 23px;color: #fff;display: block;margin-top: 3px;}
+h1 {font-size: 46px;}
+h1 span {display: none;}
+.prod_col {width: 100%;}	
+.prod_details {padding-top: 20px;bottom: -79%;}
+.prod_details span.price {margin-bottom: 20px;font-size: 16px;padding: 5px 10px;}
+.prod_details p {margin-bottom: 40px;margin-top: 30px;}
+.docs_item a {padding: 10px 7px 9px 10px;}
+.how_item {width: 100%;text-align: center;}
+.how_item img {margin-left: 15px;}
+.how_item img.deal {margin-left: 7px;}
+.how_item img.wallet {margin-left: 23px;}
+.how_item img.truck {margin-left: -6px;}
+.how_decor {display: none;}
+.head_block h4 {font-size: 22px;}
+.cl_slide p {font-size: 17px;}
+.form_wrapper br {display: none;}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+h2 {font-size: 34px;}
+h3 {font-size: 30px;}
+hr {width: 34px;margin-bottom: 35px;}
+section {padding: 40px 0;}
+.header_wrapper {margin-bottom: -15px;min-height: 562px;}
+.benbox {width: 100%;}
+.benbox:nth-child(2n) {background-color: #fff;}
+.benbox:nth-child(2n+1) {background-color: #F8F9FA;}
+.benbox:nth-child(1),
+.benbox:nth-child(5) {border-right: 3px solid #fff;}
+.benbox:nth-child(3),
+.benbox:nth-child(7) {border-right: 3px solid #fff;border-left: 3px solid #fff;}
+.product_card {height: auto;}
+.product_card img {display: none;}
+.prod_details {position: static;padding: 20px;}
+.product_card:hover .prod_details h3 {margin: 0 0 20px;}
+.prod_details p {margin-bottom: 25px;margin-top: 0;}
+.service_block {padding-bottom: 0;}
+.pagingInfo {padding: 0 14px;}
+.docs_item a {padding: 7px 4px 9px 7px;}
+.docs_item a::before {font-size: 22px;width: 40px;height: 40px;margin-left: -20px;line-height: 38px;margin-top: -25px;}
+.clients_block {display: none;}
+.call_block {margin-top: 0;}
+.form_wrapper {width: 100%;padding: 30px;}
+.form_call label, .form_call .red_btn {width: 250px;}
+.toTop {display: none!important;}
+}
+
+@media only screen and (max-width : 400px) {	
+h1 {font-size: 33px;}
+.header_wrapper {min-height: 500px;}
+.services_inner_slider button.slick-arrow {bottom: 40%;}
+.docs_item a {padding: 7px 4px 9px 7px;}
+.call_block {margin: 0;}
+.form_wrapper {padding: 20px 0;background-color: transparent;border: none;box-shadow: none;}
+.form_call label, .form_call .red_btn {width: 100%;}
+.contact_item i {width: 20px;height: 20px;margin-right: 20px;font-size: 23px;color: #3c62b8;background-color: transparent;}
+.contact_item i.icon-technology2, 
+.contact_item i.icon-envelope-1 {font-size: 24px;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.sticky, .btn_mnu {width: 55px;}
+.main_menu ul li a {line-height: 55px;}
+.main_menu ul li a::before {left: 17px;bottom: calc(50% + 5px);}
+.main_menu li:nth-child(4) a::before {bottom: calc(50% + 4px);}
+.main_menu li:nth-child(5) a::before {bottom: calc(50% + 3px);}
+.top_header {margin-top: 13px;}
+.logo_box .logo {height: 48px;}
+.page {padding-left: 55px;}
+h1 {font-size: 34px;line-height: 1.2;}
+h2 {font-size: 33px;}
+.header_wrapper {min-height: 470px;}
+.benbox {padding: 15px 15px 15px 25px;}
+.right_desc {font-size: 12px;}
+.docs_item a {padding: 5px 3px 9px 4px;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
