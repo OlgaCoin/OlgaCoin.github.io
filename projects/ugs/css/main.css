@@ -184,7 +184,7 @@ section {
   	-o-transition: all 0.3s;
   	-webkit-transition: all 0.3s;
   	transition: all 0.3s;
-  	z-index: 5;
+  	z-index: 56;
   	position: fixed;
     top:0; 
     left:0;
@@ -195,7 +195,6 @@ section {
 }
 .sticky.active {
 	width: 200px;
-	z-index: 56;
 }
 .main_menu {
 	width: 100%;
@@ -339,7 +338,7 @@ section {
     cursor: pointer;
     height: 60px;
     width: 60px;
-    z-index: 9;
+    z-index: 57;
     text-align: center;
     color: #3d3d3d;
     font-size: 25px;
